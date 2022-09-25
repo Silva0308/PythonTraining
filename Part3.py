@@ -45,3 +45,13 @@ numbers = listprint(min_num, max_num, a)
 print(numbers)
 inv_numbers = listinversion(numbers)
 print(inv_numbers)
+
+# 35. Определить, присутствует ли в заданном массиве, некоторое число
+def number_search(array, x):
+    if x in array:
+        print("yes")
+    else:
+        print("no")
+
+x_num = int(input("Put the number to find: "))
+number_search(numbers, x_num)
