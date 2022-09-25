@@ -10,3 +10,12 @@ for i in range(n):
    sum += int(x[i])
 print(sum)
 
+# 29. Написать программу вычисления произведения чисел от 1 до N
+n = int(input("Введите число: "))
+result = 1
+for i in range(n):
+    result *= i+1
+print(result)
+
+
+
