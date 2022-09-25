@@ -12,4 +12,10 @@ for i in range(a+1):
 print(sum)
 print()
 
-# 26.
+# 26. Возведите число А в натуральную степень B используя цикл
+a = int(input("Введите A: "))
+b = int(input("Введите степень: "))
+result = 1
+for i in range(b):
+    result *=a
+print(result)
